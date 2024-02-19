@@ -8,4 +8,6 @@ You can reproduce this by running `pnpm dev` and clicking on the link that says 
 The index page does not break as it uses a `setTimeout` to wrap the `track_links` method, but the other page does break.
 This does not work when using `ref`s either, as shown in the `using-refs.tsx` page.
 
+Created to add a reproduction for issue https://github.com/mixpanel/mixpanel-js/issues/419#issue-2142437047
+
 ![error](this-config-undefined-error.png)
