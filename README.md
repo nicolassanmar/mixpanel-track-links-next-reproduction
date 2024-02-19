@@ -6,5 +6,6 @@ When using Mixpanel's `track_links` method in a React app, we need to wrap the m
 
 You can reproduce this by running `pnpm dev` and clicking on the link that says "Go to page demonstrating how it breaks without a setTimeout".
 The index page does not break as it uses a `setTimeout` to wrap the `track_links` method, but the other page does break.
+This does not work when using `ref`s either, as shown in the `using-refs.tsx` page.
 
 ![error](this-config-undefined-error.png)

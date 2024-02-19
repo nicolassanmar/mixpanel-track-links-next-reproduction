@@ -26,6 +26,13 @@ export default function Home() {
           Go to page demonstrating how it breaks without a setTimeout
         </a>
       </div>
+
+      <div style={{ marginTop: 100 }}>
+        <a href="no-set-timeout">
+          Go to page demonstrating how it breaks without a setTimeout, when
+          using refs
+        </a>
+      </div>
     </>
   );
 }
